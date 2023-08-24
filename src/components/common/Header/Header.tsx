@@ -1,5 +1,8 @@
 import styles from "./Header.module.css";
 import Link from "next/link";
+import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const links = [
 	{
@@ -11,23 +14,8 @@ const links = [
 		label: "Productos",
 	},
 	{
-		href: "/contact-us",
-		label: "Contacto",
-	},
-];
-
-const socialLinks = [
-	{
-		href: "https://www.facebook.com/",
-		label: "Facebook",
-	},
-	{
-		href: "https://www.instagram.com/",
-		label: "Instagram",
-	},
-	{
-		href: "https://www.whatsapp.com/",
-		label: "WhatsApp",
+		href: "/about",
+		label: "Nosotros",
 	},
 ];
 
@@ -36,7 +24,12 @@ export default function Header() {
 		<header className={styles.header}>
 			<div className={styles.headerContainer}>
 				<Link className={styles.logo} href="/">
-					<span>ADB</span>
+					<Image
+						src={"/img/logo.png"}
+						width={70}
+						height={70}
+						alt="Almacen del Bioquimico"
+					/>
 				</Link>
 				<nav className={styles.navbar}>
 					{links.map(({ href, label }) => {
@@ -47,15 +40,12 @@ export default function Header() {
 						);
 					})}
 				</nav>
-				<div className={styles.socialLinks}>
-					{socialLinks.map(({ href, label }) => {
-						return (
-							<a key={href} href={href} target="_blank">
-								{label}
-							</a>
-						);
-					})}
+				<div className={styles.contactBtn}>
+					<Link href={"/contact-us"}>Contactanos</Link>
 				</div>
+				<button className={styles.burgerMenu}>
+					<FontAwesomeIcon icon={faBars} />
+				</button>
 			</div>
 		</header>
 	);

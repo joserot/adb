@@ -59,11 +59,21 @@
 		padding: 1rem 2rem;
 		text-decoration: none;
 		border-radius: 20px;
-		transition: background-color 0.5s;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		transition: all 0.5s;
+	}
+
+	.contactBtn a svg {
+		width: 15px;
+		height: auto;
 	}
 
 	.contactBtn a:hover {
-		background-color: #00a5dd;
+		background-color: #0222c2;
+		gap: 15px;
 	}
 
 	.burgerMenu {
@@ -119,10 +129,6 @@
 		transition: color 0.5s;
 	}
 
-	.navbar a:hover {
-		color: #001ba6;
-	}
-
 	.contactBtn a {
 		background-color: #001ba6;
 		color: #fff;
@@ -132,11 +138,16 @@
 		padding: 1rem 2rem;
 		text-decoration: none;
 		border-radius: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
 		transition: background-color 0.5s;
 	}
 
-	.contactBtn a:hover {
-		background-color: #00a5dd;
+	.contactBtn a svg {
+		width: 15px;
+		height: auto;
 	}
 
 	.burgerMenu {

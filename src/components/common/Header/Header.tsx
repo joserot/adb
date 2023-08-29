@@ -1,8 +1,12 @@
+"use client";
+
 import styles from "./Header.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
+import NavBar from "./NavBar/NavBar";
 
 const links = [
 	{
@@ -20,6 +24,14 @@ const links = [
 ];
 
 export default function Header() {
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+	const handleMenuClick = (event: React.SyntheticEvent<HTMLButtonElement>) => {
+		event.preventDefault();
+
+		setIsMenuOpen(!isMenuOpen);
+	};
+
 	return (
 		<header className={styles.header}>
 			<div className={styles.headerContainer}>
@@ -46,10 +58,17 @@ export default function Header() {
 						<FontAwesomeIcon icon={faArrowRight} />
 					</Link>
 				</div>
-				<button className={styles.burgerMenu}>
+				<button onClick={handleMenuClick} className={styles.burgerMenu}>
 					<FontAwesomeIcon icon={faBars} />
 				</button>
 			</div>
+			{isMenuOpen && (
+				<NavBar
+					links={links}
+					handleMenuClick={handleMenuClick}
+					isMenuOpen={isMenuOpen}
+				/>
+			)}
 		</header>
 	);
 }

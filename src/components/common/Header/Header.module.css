@@ -10,6 +10,7 @@
 		justify-content: center;
 		align-items: center;
 		padding: 10px 0;
+		z-index: 99;
 	}
 
 	.headerContainer {
@@ -167,6 +168,7 @@
 		justify-content: center;
 		align-items: center;
 		padding: 10px 0;
+		z-index: 99;
 	}
 
 	.headerContainer {

@@ -1,0 +1,17 @@
+.brands {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 30px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: solid 1px #00000034;
+	margin-top: 100px;
+}
+
+.brands img {
+	object-fit: contain;
+	width: 150px;
+	height: auto;
+}

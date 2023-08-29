@@ -4,7 +4,7 @@ import Icons from "<src>/components/contact-us/Icons/Icons";
 import ContactForm from "<src>/components/contact-us/ContactForm/ContactForm";
 import Footer from "<src>/components/common/Footer/Footer";
 
-export default function Home() {
+export default function ContactUs() {
 	return (
 		<>
 			<Header />

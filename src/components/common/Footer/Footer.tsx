@@ -26,15 +26,16 @@ export default function Footer() {
 								/>
 							</Link>
 							<p>
-								Quis autem eum reprehenderit volutate velit quam molestiae
-								conseuatur
+								ADB EMPRESA MISIONERA FORTALECIENDO LA ACTIVIDAD ESTANDO MAS
+								CERCA DE USTEDES
 							</p>
 						</div>
 						<div className={styles.col}>
 							<h3>Encontranos en:</h3>
-							<p>lorem ipsum lorem ipsum 123</p>
-							<p>loremipsum@gmail.com</p>
-							<p>123456789</p>
+							<p>Av. Santa Catalina 2380 - Posadas Mnes.</p>
+							<p> ventas@sensemisiones.com.ar</p>
+							<p>3764 909200</p>
+							<p>3765 260071</p>
 						</div>
 						<div className={styles.col}>
 							<h3>Links</h3>

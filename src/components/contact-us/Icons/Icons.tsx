@@ -5,17 +5,17 @@ const iconsData = [
 	{
 		title: "Ubicación",
 		image: "/img/contact-us/icon-1.png",
-		data: "lorem ipsum lorem ipsum 123",
+		data: "Av. Santa Catalina 2380 - Posadas Mnes.",
 	},
 	{
 		title: "Email",
 		image: "/img/contact-us/icon-2.png",
-		data: "loremipsum@gmail.com",
+		data: "ventas@sensemisiones.com.ar",
 	},
 	{
 		title: "Teléfono",
 		image: "/img/contact-us/icon-3.png",
-		data: "123456789",
+		data: "3765 260071 ",
 	},
 ];
 

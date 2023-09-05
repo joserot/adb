@@ -5,39 +5,44 @@ import Catalogue from "<src>/components/products/Catalogue/Catalogue";
 
 const productsList = [
 	{
-		name: "product 1",
-		image: "/img/products/hero-products.avif",
-		url: "https://drive.google.com/file/d/1hYdu9q8z6ZbGP1Fi7cyLDjzmMgn2lMua/view?usp=sharing",
+		name: "Wierner Lab",
+		image: "/img/products/wiener.png",
+		url: "https://drive.google.com/file/d/1AJCiGVwpZRb1t7YgMwy0WMBTR1Pybfhj/view?usp=drive_link",
 	},
 	{
-		name: "product 2",
-		image: "/img/products/hero-products.avif",
-		url: "https://drive.google.com/file/d/1hYdu9q8z6ZbGP1Fi7cyLDjzmMgn2lMua/view?usp=sharing",
+		name: "Britania Lab",
+		image: "/img/products/britania.png",
+		url: "https://drive.google.com/file/d/1wsEaHhcL_EydQ00TH9o6dG3xErZ3UDjp/view?usp=drive_link",
 	},
 	{
-		name: "product 3",
-		image: "/img/products/hero-products.avif",
-		url: "https://drive.google.com/file/d/1hYdu9q8z6ZbGP1Fi7cyLDjzmMgn2lMua/view?usp=sharing",
+		name: "Tubos Britania",
+		image: "/img/products/tubos-britania.jpeg",
+		url: "https://drive.google.com/file/d/1CS9hzMOKZlv6njMeGj6rZpOYED719Ddj/view?usp=drive_link",
 	},
 	{
-		name: "product 4",
-		image: "/img/products/hero-products.avif",
-		url: "https://drive.google.com/file/d/1hYdu9q8z6ZbGP1Fi7cyLDjzmMgn2lMua/view?usp=sharing",
+		name: "Biopack",
+		image: "/img/products/biopack.jpg",
+		url: "https://drive.google.com/file/d/1-H4-zvyixwX6AJPs8wgLyHzHdSH98KqU/view?usp=drive_link",
 	},
 	{
-		name: "product 5",
-		image: "/img/products/hero-products.avif",
-		url: "https://drive.google.com/file/d/1hYdu9q8z6ZbGP1Fi7cyLDjzmMgn2lMua/view?usp=sharing",
+		name: "Test rápidos",
+		image: "/img/products/test.jpg",
+		url: "https://drive.google.com/file/d/10umOiDcesbm8JvheAIKn0nBQ4tItMa-I/view?usp=drive_link",
 	},
 	{
-		name: "product 6",
-		image: "/img/products/hero-products.avif",
-		url: "https://drive.google.com/file/d/1hYdu9q8z6ZbGP1Fi7cyLDjzmMgn2lMua/view?usp=sharing",
+		name: "Everglass",
+		image: "/img/products/everglass.jpg",
+		url: "https://drive.google.com/file/d/13oXYsA704GaBcapRUDXSElRe94cCTsnE/view?usp=drive_link",
 	},
 	{
-		name: "product 7",
-		image: "/img/products/hero-products.avif",
-		url: "https://drive.google.com/file/d/1hYdu9q8z6ZbGP1Fi7cyLDjzmMgn2lMua/view?usp=sharing",
+		name: "Paralwall",
+		image: "/img/products/paralwall.webp",
+		url: "https://drive.google.com/file/d/1hYdu9q8z6ZbGP1Fi7cyLDjzmMgn2lMua/view?usp=drive_link",
+	},
+	{
+		name: "Cromoion",
+		image: "/img/products/cromoion.png",
+		url: "https://drive.google.com/file/d/1J18zlu7pnBZt5oFQDHhwvnOdS4CfUa24/view?usp=drive_link",
 	},
 ];
 

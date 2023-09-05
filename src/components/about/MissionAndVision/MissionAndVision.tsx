@@ -15,14 +15,13 @@ export default function MissionAndVision() {
 				<div className={styles.missionContentContainer}>
 					<h2 className={styles.title}>Almacen del bioquimico</h2>
 					<p className={styles.description}>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at
-						cursus sem. Fusce feugiat nibh ante. Sed metus nunc, laoreet id
-						rutrum in, fringilla et dui. Nullam augue justo, auctor nec turpis
-						vel, sollicitudin venenatis tortor. Aliquam porttitor id urna sed
-						suscipit. Nunc tempus velit a congue sollicitudin. Phasellus mattis
-						orci id risus volutpat, a ultrices sapien tempus. Donec vel accumsan
-						tortor. Nulla leo quam, rhoncus vitae nibh ut, faucibus sodales
-						massa.
+						Es de nuestra entera satisfacción presentarnos como el ALMACEN DEL
+						BIOQUIMICO , Distribuidora de Productos químicos; material
+						descartable; material de vidrio y equipamiento para la industria
+						bioquímica en la Provincia de Misiones. Nuestro portfolio cuenta con
+						soluciones para laboratorios de todas las especialidades: Clínica,
+						Bacteriología, Investigación, Biología Molecular, Genética, Análisis
+						de Agua, suelo y Alimentos:
 					</p>
 					<div className={styles.textContainer}>
 						<h3>Misión</h3>

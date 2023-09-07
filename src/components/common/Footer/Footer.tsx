@@ -34,8 +34,8 @@ export default function Footer() {
 							<h3>Encontranos en:</h3>
 							<p>Av. Santa Catalina 2380 - Posadas Mnes.</p>
 							<p> ventas@sensemisiones.com.ar</p>
-							<p>3764 909200</p>
-							<p>3765 260071</p>
+							<p>Tel. celular: 3764 909200</p>
+							<p>Tel. fijo: 3765 260071</p>
 						</div>
 						<div className={styles.col}>
 							<h3>Links</h3>

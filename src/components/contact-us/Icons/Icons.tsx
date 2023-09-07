@@ -15,7 +15,7 @@ const iconsData = [
 	{
 		title: "Teléfono",
 		image: "/img/contact-us/icon-3.png",
-		data: "3765 260071 ",
+		data: "3764 909200",
 	},
 ];
 

@@ -27,13 +27,12 @@ export default function Form() {
 			return alert("Por favor complete todos los campos");
 
 		const textMessage =
-			"-Nombre: " +
+			"- Nombre: " +
 			name +
-			"\n-Asunto: " +
+			"%0A- Asunto: " +
 			subject +
-			"\n -Mensaje: " +
-			message +
-			"\n";
+			"%0A - Mensaje: " +
+			message;
 
 		const phone = "543764909200";
 		const link = `https://wa.me/${phone}?text=${textMessage}`;

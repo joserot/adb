@@ -8,17 +8,16 @@ import Image from "next/image";
 const brandsList = [
 	"/img/marcas/1.png",
 	"/img/marcas/2.png",
-	"/img/marcas/3.png",
+	"/img/marcas/3.jpeg",
 	"/img/marcas/4.png",
 	"/img/marcas/5.png",
 	"/img/marcas/6.png",
-	"/img/marcas/7.png",
+	"/img/marcas/7.jpeg",
 	"/img/marcas/8.png",
-	"/img/marcas/9.png",
-	"/img/marcas/10.png",
+	"/img/marcas/9.jpeg",
+	"/img/marcas/10.jpeg",
 	"/img/marcas/11.png",
-	"/img/marcas/12.png",
-	"/img/marcas/13.png",
+	"/img/marcas/12.jpeg",
 ];
 
 const splideOptions = {
@@ -45,7 +44,7 @@ const splideOptions = {
 	paginationKeyboard: false,
 	width: "100%",
 	lazyLoad: true,
-	height: 80,
+	height: 150,
 };
 
 export default function Brands() {

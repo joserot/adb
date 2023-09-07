@@ -1,7 +1,7 @@
 /* Desktop */
 @media screen and (min-width: 1024px) {
 	.footer {
-		background-color: #001ba6;
+		background-color: #031364;
 		color: #fff;
 		display: flex;
 		justify-content: center;
@@ -144,7 +144,7 @@
 /* Tablet */
 @media screen and (min-width: 700px) and (max-width: 1024px) {
 	.footer {
-		background-color: #001ba6;
+		background-color: #031364;
 		color: #fff;
 		display: flex;
 		justify-content: center;
@@ -291,7 +291,7 @@
 /* Mobille */
 @media screen and (max-width: 700px) {
 	.footer {
-		background-color: #001ba6;
+		background-color: #031364;
 		color: #fff;
 		display: flex;
 		justify-content: center;

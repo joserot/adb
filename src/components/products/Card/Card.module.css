@@ -55,4 +55,5 @@
 	box-shadow: 0px 10px 60px rgba(11, 61, 44, 0.5);
 	cursor: pointer;
 	transition: all 0.5s;
+	font-size: 1.5rem;
 }
